@@ -1,0 +1,29 @@
+.pdf-preview{
+          font-size:40px;
+          font-weight: 700;
+          text-align: center;
+          color:#242D49;
+          margin-bottom: 20px;
+          text-decoration: underline;
+}
+ 
+        /* Responsive Design */
+        @media screen and (max-width: 820px) {
+          .pdf-container {
+            width: 80%;
+            height: 75vh; /* Adjust height dynamically */
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          .pdf-preview {
+            font-size: 20px;
+            padding: 0 10px;
+          }
+        
+          .pdf-container {
+            width:95%;
+            height: 70vh; /* Adjust height for mobile */
+          }
+        }
+        

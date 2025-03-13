@@ -1,0 +1,214 @@
+/* Portfolio component */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-bottom: 5rem;
+}
+.Project-heding{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+/* Heading */
+.portfolio span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Slider */
+.portfolio .swiper {
+  overflow: visible!important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+
+.portfolio img {
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
+
+/* Media Queries */
+
+/* Tablets and small desktops */
+@media (max-width: 768px) {
+  .portfolio {
+    height: auto;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+  }
+
+  .portfolio span:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+
+  .portfolio span:nth-of-type(2) {
+    font-size: 2rem;
+  }
+
+  .portfolio-slider .swiper-slide {
+    width: 15rem;
+  }
+
+  .portfolio img {
+    width: 14rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .portfolio {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio span:nth-of-type(1) {
+    font-size: 1.2rem;
+  }
+
+  .portfolio span:nth-of-type(2) {
+    font-size: 1.5rem;
+    
+  }
+
+  .portfolio-slider {
+    margin-top: 2rem;
+  }
+
+  .portfolio-slider .swiper-slide {
+    width: 12rem;
+   
+  }
+
+  .portfolio img {
+    width: 11rem;
+  }
+ 
+}
+.mongo-db{
+  background-size: cover;
+  background:white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.express{
+  background-size: cover;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.react{
+  background-size: cover;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.node{
+  background-size: cover;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.MERN{
+  
+  height: 210px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.fullStack{
+  height: 210px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.project-link{
+  margin-top: 200px;
+}
+.project-link {
+  width: 100%;
+  overflow-x: auto;
+}
+/* table css and responsive css code */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  border: 1px solid #FCA61F;
+  padding: 8px;
+  text-align: center;
+  
+}
+
+th {
+  background-color: #FCA61F;
+}
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+      display: block;
+  }
+
+  th {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  tr {
+      margin: 0 0 1rem 0;
+    
+  }
+
+  tr:nth-child(odd) {
+    color: #FCA61F;
+  }
+
+  td {
+      border: none;
+      border-bottom: 1px solid #FCA61F;
+      position: relative;
+    
+  }
+
+  td:before {
+      position: absolute;
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      content: attr(data-label);
+      font-weight: bold;
+     
+  }
+}

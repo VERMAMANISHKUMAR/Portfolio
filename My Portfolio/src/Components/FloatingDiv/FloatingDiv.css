@@ -1,0 +1,29 @@
+/* Default styles */
+.floatingdiv {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+          right: -1px;
+          top: 100px;
+          background-color: whitesmoke;
+          border-radius: 10px;
+          padding: -3px 6px 8px 0px;
+        }
+        
+        .corwn {
+          transform: scale(1.0);
+          width: 2rem;
+          height: 2rem;
+        }
+        
+        .floatingdiv > span {
+          color: var(--orange);
+          font-weight: bold;
+          font-family: sans-serif;
+          font-size: 16px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+        
+       

@@ -1,0 +1,120 @@
+/* CoverLetter.css
+.cover-letter-container {
+          width: 100%;
+          margin: 0 auto;
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          color: #333;
+        }
+        
+        .title {
+          text-align: center;
+          color: #FCA61F;
+          margin-bottom: 20px;
+          font-size: 40px;
+          font-weight: 700;
+          text-decoration: underline;
+        }
+        
+        .content {
+          background: #f9f9f9;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content p {
+          margin-bottom: 10px;
+        }
+        
+        .content p:last-child {
+          margin-bottom: 0;
+        }
+         */
+         /* CoverLetter.css */
+.cover-letter-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Title Styling */
+.title {
+  font-size:40px;
+  font-weight: 700;
+  text-align: center;
+  color: #FCA61F;
+  margin-bottom: 20px;
+  text-decoration: underline;
+
+}
+
+/* Content Styling */
+.content {
+  font-size: 1.1rem;
+  color: #444;
+  padding: 10px;
+}
+
+/* Links Styling */
+.content a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content a span {
+  display: block;
+}
+
+/* Make the links more readable */
+.content a span:nth-child(2) {
+  color: green;
+  font-size: 18px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .cover-letter-container {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .content p {
+    margin-bottom: 15px;
+  }
+
+  .content a span:nth-child(2) {
+    font-size: 16px;
+    word-break: break-all; /* Prevents link overflow */
+  }
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+  .cover-letter-container {
+    padding: 10px;
+    margin-top: 10rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .content {
+    font-size: 0.95rem;
+  }
+}

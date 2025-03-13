@@ -1,0 +1,108 @@
+/* Email component */
+/* heading */
+
+.heading {
+text-align: center;
+  margin-top: 80px;
+  margin-bottom: -7rem;
+}
+
+.heading>* {
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.heading span:nth-of-type(2) {
+  color: var(--orange);
+}
+
+.contact-form {
+          padding: 0 3rem;
+          display: flex;
+          height: 90vh;
+          margin-top: 10rem;
+        }
+        
+        .c-right {
+          display: flex;
+          justify-content: center;
+          position: relative;
+          flex: 1;
+        }
+        
+        .c-right>form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2rem;
+        }
+        
+        .c-right .user {
+          width: 20rem;
+          height: 2rem;
+          padding: 0.3rem;
+          outline: none;
+          border: 2px solid var(--orange);
+          border-radius: 8px;
+          font-size: 16px;
+        }
+        
+        textarea {
+          height: 4rem!important;
+        }
+        
+        .c-blur1 {
+          top: 1rem;
+          left: 8rem;
+        }
+        
+        /* Media Queries */
+        
+        /* Tablets and small desktops */
+        @media (max-width: 768px) {
+          .contact-form {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            margin-top: 10rem!important;
+          }
+        
+          .c-right {
+            margin-top: 2rem;
+          }
+        
+          .c-right .user {
+            width: 16rem;
+          }
+        
+          textarea {
+            width: 18rem;
+          }
+        }
+        
+        /* Mobile devices */
+        @media (max-width: 480px) {
+          .contact-form {
+            padding: 0 1rem;
+            margin-top: 7rem;
+            margin-bottom: 3rem;
+          }
+        
+          .c-right {
+            width: 100%;
+          }
+        
+          .c-right .user {
+            width: 90%;
+          }
+        
+          textarea {
+            width: 90%;
+          }
+        
+          .c-blur1 {
+            left:0;
+          }
+        }
+        
