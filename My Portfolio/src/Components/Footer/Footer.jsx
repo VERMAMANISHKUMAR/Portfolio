@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Footer.css'
 import Insta from '@iconscout/react-unicons/icons/uil-instagram'
 import Fessbook from '@iconscout/react-unicons/icons/uil-facebook'

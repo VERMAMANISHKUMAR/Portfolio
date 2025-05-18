@@ -1,37 +1,4 @@
-/* CoverLetter.css
-.cover-letter-container {
-          width: 100%;
-          margin: 0 auto;
-          font-family: Arial, sans-serif;
-          line-height: 1.6;
-          color: #333;
-        }
-        
-        .title {
-          text-align: center;
-          color: #FCA61F;
-          margin-bottom: 20px;
-          font-size: 40px;
-          font-weight: 700;
-          text-decoration: underline;
-        }
-        
-        .content {
-          background: #f9f9f9;
-          padding: 20px;
-          border-radius: 10px;
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        .content p {
-          margin-bottom: 10px;
-        }
-        
-        .content p:last-child {
-          margin-bottom: 0;
-        }
-         */
-         /* CoverLetter.css */
+
 .cover-letter-container {
   max-width: 800px;
   margin: 40px auto;

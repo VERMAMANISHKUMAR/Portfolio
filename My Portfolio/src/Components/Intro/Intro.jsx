@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Intro.css'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import {motion} from 'framer-motion'
@@ -11,7 +11,7 @@ import Coding_Ninja from '../../images/img/coding logo.png'
 //right side image
 import Vector1 from '../../images/img/Vector1.png'
 import Vector2 from '../../images/img/Vector2.png'
-import Boy from '../../images/img/boy.png'
+import Boy from '../../images/img/boy3.png'
 import Glassesimoji from '../../images/img/glassesimoji.png'
 import Thumbup from '../../images/img/thumbup.png'
 
