@@ -1,5 +1,5 @@
 
-import resume from "../Resume/Resume.pdf";
+import resume from "../Resume/resume.pdf";
 
 const PDFViewerComponent = () => {
   return (
